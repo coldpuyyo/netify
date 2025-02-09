@@ -1,0 +1,479 @@
+{
+  "clientData": [
+    {
+      "id": "8bda",
+      "clientName": "admin",
+      "clientId": "admin",
+      "clientNick": "admin",
+      "clientPwd": "admin",
+      "banned": false
+    },
+    {
+      "id": "9b8f",
+      "clientName": "차준혁",
+      "clientId": "ckwnsgur0702@naver.com",
+      "clientNick": "chalaly",
+      "clientPwd": "ckwnsgur",
+      "banned": false
+    },
+    {
+      "id": "58ac",
+      "clientName": "김강민",
+      "clientId": "rlarkdals@naver.com",
+      "clientNick": "Coldpuyyo",
+      "clientPwd": "rlarkdals",
+      "banned": false
+    },
+    {
+      "id": "530b",
+      "clientName": "신현철",
+      "clientId": "sihn777@naver.com",
+      "clientNick": "sin",
+      "clientPwd": "guscjf23",
+      "banned": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "1a20",
+      "title": "zzzzz",
+      "content": "zzzzzzzzzzzzzzz",
+      "answer": "",
+      "author": "chalaly"
+    },
+    {
+      "id": "b267",
+      "title": "zzzzz",
+      "content": "zzzzzzzzzzzz",
+      "answer": "",
+      "author": "chalaly"
+    },
+    {
+      "id": "c945",
+      "title": "zzzzzzzz",
+      "content": "zzzzzzzzzzzzzz",
+      "answer": "",
+      "author": "chalaly"
+    },
+    {
+      "id": "9192",
+      "title": "zzzzzzzzz",
+      "content": "zzzzzzzzzzzzzzz",
+      "answer": "",
+      "author": "chalaly"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "9022",
+      "pageId": "top_sub1",
+      "nickname": "chalaly",
+      "clientId": "ckwnsgur0702@naver.com",
+      "review": "체스트 프레스는 기본이죠",
+      "rating": 5
+    },
+    {
+      "id": "a107",
+      "pageId": "top_sub2",
+      "nickname": "chalaly",
+      "clientId": "ckwnsgur0702@naver.com",
+      "review": "헬스장 웃긴 영상에 뜨지 않게 주의깊게 보시길",
+      "rating": 5
+    },
+    {
+      "id": "ce5c",
+      "pageId": "top_sub3",
+      "nickname": "chalaly",
+      "clientId": "ckwnsgur0702@naver.com",
+      "review": "어깨의 기본이죠~",
+      "rating": 5
+    },
+    {
+      "id": "ab50",
+      "pageId": "top_sub4",
+      "nickname": "chalaly",
+      "clientId": "ckwnsgur0702@naver.com",
+      "review": "이거 자극 죽이지~",
+      "rating": 5
+    },
+    {
+      "id": "c7a7",
+      "pageId": "bottom_sub1",
+      "nickname": "chalaly",
+      "clientId": "ckwnsgur0702@naver.com",
+      "review": "핵스쿼트 ㄷㄷㄷ",
+      "rating": 4
+    },
+    {
+      "id": "76e7",
+      "pageId": "cardio_sub1",
+      "nickname": "chalaly",
+      "clientId": "ckwnsgur0702@naver.com",
+      "review": "김동현이 타는거 봤는데 엄청 어려워보이던데",
+      "rating": 5
+    },
+    {
+      "id": "4d01",
+      "pageId": "top_sub5",
+      "nickname": "chalaly",
+      "clientId": "ckwnsgur0702@naver.com",
+      "review": "한번 해보고 싶다",
+      "rating": 4
+    },
+    {
+      "id": "ec5e",
+      "pageId": "cardio_sub3",
+      "nickname": "chalaly",
+      "clientId": "ckwnsgur0702@naver.com",
+      "review": "그 유명한 천국의 계단",
+      "rating": 5
+    },
+    {
+      "id": "67e2",
+      "pageId": "top_sub1",
+      "nickname": "Coldpuyyo",
+      "clientId": "rlarkdals@naver.com",
+      "review": "가슴 근육의 혁명! 빵빵한 가슴을 원하시면 헬스장에 도착하자마자 체스트프레스 머신으로 향하세요",
+      "rating": 4
+    },
+    {
+      "id": "f168",
+      "pageId": "top_sub2",
+      "nickname": "Coldpuyyo",
+      "clientId": "rlarkdals@naver.com",
+      "review": "팔뚝을 찢어버릴 준비됐나? 새로운 자극을 경험해볼 시간이다.",
+      "rating": 4
+    },
+    {
+      "id": "0c8b",
+      "pageId": "top_sub3",
+      "nickname": "Coldpuyyo",
+      "clientId": "rlarkdals@naver.com",
+      "review": "어깨 깡패로 거듭날 시간! 어깨 운동하면 뭐다? 오버헤드 프레스! 근데 바벨 들다가 목 나갈까 걱정된다면? 숄더 프레스 머신이 답이다!",
+      "rating": 4
+    },
+    {
+      "id": "1ef6",
+      "pageId": "top_sub4",
+      "nickname": "Coldpuyyo",
+      "clientId": "rlarkdals@naver.com",
+      "review": "\"등 운동은 풀업이지!\"라고 외치던 나… 하지만 레터럴 로우 머신을 써본 순간, 생각이 바뀌었다...",
+      "rating": 4
+    },
+    {
+      "id": "0bfe",
+      "pageId": "top_sub5",
+      "nickname": "Coldpuyyo",
+      "clientId": "rlarkdals@naver.com",
+      "review": "복근 운동하면 크런치, 레그 레이즈, 플랭크만 한다고? 😏 업도미널 머신(Abdominal Machine) 한 번 써보면 생각이 바뀔 걸?",
+      "rating": 5
+    },
+    {
+      "id": "b1c1",
+      "pageId": "bottom_sub1",
+      "nickname": "Coldpuyyo",
+      "clientId": "rlarkdals@naver.com",
+      "review": "대퇴사두(허벅지 앞쪽), 햄스트링, 둔근(엉덩이)까지 전부 폭격하는 머신! 이건 그냥 하체 지옥행 티켓이다.",
+      "rating": 5
+    },
+    {
+      "id": "e0aa",
+      "pageId": "bottom_sub2",
+      "nickname": "Coldpuyyo",
+      "clientId": "rlarkdals@naver.com",
+      "review": "\"하체는 스쿼트만 하면 되지 않나?\" 하던 당신 레그 익스텐션 머신 한 번 써보면 생각 바뀐다. 이건 그냥 허벅지 앞쪽(대퇴사두)만 죽어라 조지는 머신!",
+      "rating": 4
+    },
+    {
+      "id": "00f2",
+      "pageId": "bottom_sub3",
+      "nickname": "Coldpuyyo",
+      "clientId": "rlarkdals@naver.com",
+      "review": "하체를 터뜨려보자! 하지만 프리 웨이트만큼 코어 개입이 적음 → 진짜 강한 하체를 원하면 스쿼트랑 병행해야 함",
+      "rating": 3
+    },
+    {
+      "id": "3b01",
+      "pageId": "bottom_sub4",
+      "nickname": "Coldpuyyo",
+      "clientId": "rlarkdals@naver.com",
+      "review": "하체에 핵폭탄 떨어지는 느낌💣 하지만 무릎을 다 피면 유튜브에 무릎이 반대로 꺾여버린 영상에 자신이 올라갈 수 있으니 절대 조심!",
+      "rating": 4
+    },
+    {
+      "id": "dab8",
+      "pageId": "bottom_sub5",
+      "nickname": "Coldpuyyo",
+      "clientId": "rlarkdals@naver.com",
+      "review": "탄탄한 햄스트링과 둔근을 원하는 당신! 당장 시티드 레그컬을 하시길.",
+      "rating": 5
+    },
+    {
+      "id": "d8fe",
+      "pageId": "cardio_sub1",
+      "nickname": "Coldpuyyo",
+      "clientId": "rlarkdals@naver.com",
+      "review": "\"무동력\"이라는 이름 그대로, 모터 없이 오로지 내 발의 힘으로 벨트를 움직이는 트레드밀! 근데 왜 전동보다 비싸죠?",
+      "rating": 3
+    },
+    {
+      "id": "b366",
+      "pageId": "cardio_sub2",
+      "nickname": "Coldpuyyo",
+      "clientId": "rlarkdals@naver.com",
+      "review": "날씨 걱정 끝! : 비 오나 눈 오나 미세먼지 가득한 날에도 끄떡없이 유산소 운동 가능!",
+      "rating": 4
+    },
+    {
+      "id": "0d35",
+      "pageId": "cardio_sub3",
+      "nickname": "Coldpuyyo",
+      "clientId": "rlarkdals@naver.com",
+      "review": "헬창에겐 지방이 타는 쾌감을 주는 천국을 선사하지만 헬린이에겐 다른 느낌의 천국을 선사해주는 머신",
+      "rating": 3
+    },
+    {
+      "id": "1e6b",
+      "pageId": "cardio_sub4",
+      "nickname": "Coldpuyyo",
+      "clientId": "rlarkdals@naver.com",
+      "review": "탄탄한 허벅지와 엉덩이를 원하면서 칼로리도 태우고싶다? 그럼 스핀바이크!",
+      "rating": 4
+    },
+    {
+      "id": "441c",
+      "pageId": "cardio_sub5",
+      "nickname": "Coldpuyyo",
+      "clientId": "rlarkdals@naver.com",
+      "review": "해보면 이게 유산소 머신인지 무산소 머신인지 헷갈리실 겁니다.",
+      "rating": 4
+    },
+    {
+      "id": "13d6",
+      "pageId": "top_sub1",
+      "nickname": "sin",
+      "clientId": "sihn777@naver.com",
+      "review": "대흉근이 커지면 마음도 넓어집니다.",
+      "rating": 5
+    },
+    {
+      "id": "e7a3",
+      "pageId": "top_sub2",
+      "nickname": "sin",
+      "clientId": "sihn777@naver.com",
+      "review": "반팔 티셔츠의 완성은 꽉 찬 이두근 아니겠습니까.",
+      "rating": 4
+    },
+    {
+      "id": "22ce",
+      "pageId": "top_sub3",
+      "nickname": "sin",
+      "clientId": "sihn777@naver.com",
+      "review": "든든한 남자가 되기 위한 태평양 같은 어깨 숄더프레스 가즈아~",
+      "rating": 4
+    },
+    {
+      "id": "c426",
+      "pageId": "top_sub4",
+      "nickname": "sin",
+      "clientId": "sihn777@naver.com",
+      "review": "레터럴로우를 만나고 숨겨진 등 근육이 나오기 시작했습니다.",
+      "rating": 5
+    },
+    {
+      "id": "7eb5",
+      "pageId": "top_sub5",
+      "nickname": "sin",
+      "clientId": "sihn777@naver.com",
+      "review": "업도미널의 고통은 잠시이고 복부의 초콜릿은 영원할 것 입니다.",
+      "rating": 5
+    },
+    {
+      "id": "9dcf",
+      "pageId": "bottom_sub1",
+      "nickname": "sin",
+      "clientId": "sihn777@naver.com",
+      "review": "앉았다 일어나서 쉬지 말고 바로 앉으십쇼! 하체는 일어나지 못해야 한세트입니다.",
+      "rating": 3
+    },
+    {
+      "id": "ff71",
+      "pageId": "bottom_sub2",
+      "nickname": "sin",
+      "clientId": "sihn777@naver.com",
+      "review": "아.... 두 세트 했는데 내 앞벅지 어디 갔누....",
+      "rating": 4
+    },
+    {
+      "id": "b56e",
+      "pageId": "bottom_sub3",
+      "nickname": "sin",
+      "clientId": "sihn777@naver.com",
+      "review": "기능성 운동으로 추천 드립니다. 적당한 무게감 자극감 너무 좋고~",
+      "rating": 5
+    },
+    {
+      "id": "5a52",
+      "pageId": "bottom_sub4",
+      "nickname": "sin",
+      "clientId": "sihn777@naver.com",
+      "review": "200kg 이상 미십니까? 이제 한 다리씩 시작하시죠!",
+      "rating": 4
+    },
+    {
+      "id": "061c",
+      "pageId": "bottom_sub5",
+      "nickname": "sin",
+      "clientId": "sihn777@naver.com",
+      "review": "뒷다리가 튼튼해야 앞다리도 더 발전합니다.",
+      "rating": 4
+    },
+    {
+      "id": "8dba",
+      "pageId": "cardio_sub1",
+      "nickname": "sin",
+      "clientId": "sihn777@naver.com",
+      "review": "초반에 감 잡기 어려워서 포기했는데 사이트 보고 잘 하고 있습니다.",
+      "rating": 5
+    },
+    {
+      "id": "5007",
+      "pageId": "cardio_sub2",
+      "nickname": "sin",
+      "clientId": "sihn777@naver.com",
+      "review": "유산소 너무싫다....",
+      "rating": 1
+    },
+    {
+      "id": "51e1",
+      "pageId": "cardio_sub3",
+      "nickname": "sin",
+      "clientId": "sihn777@naver.com",
+      "review": "뛰면 근손실 나니까 계단탑니다~",
+      "rating": 3
+    },
+    {
+      "id": "1426",
+      "pageId": "cardio_sub4",
+      "nickname": "sin",
+      "clientId": "sihn777@naver.com",
+      "review": "체지방도 태우고 하체 근지구력도 늘고 일석이조.",
+      "rating": 5
+    },
+    {
+      "id": "9db9",
+      "pageId": "cardio_sub5",
+      "nickname": "sin",
+      "clientId": "sihn777@naver.com",
+      "review": "로잉머신 운동 후 저는 다리가 아니라 온몸이 아프더라구요ㅠㅠ",
+      "rating": 2
+    }
+  ],
+  "machines": [
+    {
+      "pageId": "top_sub1",
+      "machineName": "체스트프레스",
+      "image": "../img/nautiluschest.png",
+      "message": "가슴 근육을 타겟 하는 머신으로 대흉근 발달에 유용합니다.",
+      "id": "990b"
+    },
+    {
+      "pageId": "top_sub2",
+      "machineName": "암컬머신",
+      "image": "../img/primearm.png",
+      "message": "팔 근육을 타겟하는 머신으로 이두근 발달에 유용합니다.",
+      "id": "014f"
+    },
+    {
+      "pageId": "top_sub3",
+      "machineName": "숄더프레스",
+      "image": "../img/cybexshoulder.png",
+      "message": "삼각근(어깨 근육)을 주요 타겟으로 하는 머신입니다.",
+      "id": "d8ae"
+    },
+    {
+      "pageId": "top_sub4",
+      "machineName": "레터럴로우",
+      "image": "../img/hammerback.png",
+      "message": "광배근과 승모근을 주 타겟으로 하는 기구입니다.",
+      "id": "f6dd"
+    },
+    {
+      "pageId": "top_sub5",
+      "machineName": "업도미널",
+      "image": "../img/lifeupdominal.png",
+      "message": "복직근에 강한 자극을 줄 수 있습니다.",
+      "id": "2be8"
+    },
+    {
+      "pageId": "bottom_sub1",
+      "machineName": "핵스쿼트",
+      "image": "../img/cybexsquat.png",
+      "message": "하체에 고립과 부하가 집중되도록 설계된 머신입니다.",
+      "id": "6cc6"
+    },
+    {
+      "pageId": "bottom_sub2",
+      "machineName": "레그익스텐션",
+      "image": "../img/sincoleg.png",
+      "message": "대퇴사두근(허벅지앞쪽)을 집중적으로 강화하는 기구입니다.",
+      "id": "ab3c"
+    },
+    {
+      "pageId": "bottom_sub3",
+      "machineName": "시티드레그프레스",
+      "image": "../img/newtechleg.png",
+      "message": "발 포지션에 따라 하체 부위의 발달을 다르게 가져갈 수 있는 기구",
+      "id": "d8c3"
+    },
+    {
+      "pageId": "bottom_sub4",
+      "machineName": "파워레그프레스",
+      "image": "../img/hammerleg.png",
+      "message": "하체 주요 근육그룹을 전체적으로 발달시킵니다.",
+      "id": "3fd1"
+    },
+    {
+      "pageId": "bottom_sub5",
+      "machineName": "시티드레그컬",
+      "image": "../img/matrixleg.png",
+      "message": "허벅지 뒤쪽(햄스트링)을 강화시켜 줍니다.",
+      "id": "c704"
+    },
+    {
+      "pageId": "cardio_sub1",
+      "machineName": "무동력트레드밀",
+      "image": "../img/draxtreadmill.png",
+      "message": "사용자의 움직임에 맞춰 구동되는 전력이 없는 기구입니다.",
+      "id": "61f9"
+    },
+    {
+      "pageId": "cardio_sub2",
+      "machineName": "런닝머신",
+      "image": "../img/draxruning.png",
+      "message": "실내에서 달리기를 할 수 있는 기구입니다.",
+      "id": "2299"
+    },
+    {
+      "pageId": "cardio_sub3",
+      "machineName": "클라임밀",
+      "image": "../img/matrixclimb.png",
+      "message": "스텝밀이라고도 불리며 계단을 오르는 형태의 운동을 합니다.",
+      "id": "030f"
+    },
+    {
+      "pageId": "cardio_sub4",
+      "machineName": "스핀바이크",
+      "image": "../img/vortecbike.png",
+      "message": "여러 자세로 전신을 활용할 수 있는 사이클입니다.",
+      "id": "2af9"
+    },
+    {
+      "pageId": "cardio_sub5",
+      "machineName": "로잉머신",
+      "image": "../img/concept2rowing.png",
+      "message": "노젓기를 구현하는 기구로 조정선수들이 실내훈련 시 사용합니다.",
+      "id": "d607"
+    }
+  ]
+}

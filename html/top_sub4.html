@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>기구 상세페이지</title>
+
+    <link rel="stylesheet" href="../css/sub.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="../css/scroll.css">
+    <script defer src="../js/scroll.js"></script>
+    <script defer src="../js/header.js"></script>
+    <script defer src="../js/footer.js"></script>
+    <script defer src="../js/sub.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header_logo"><!--로고 클래스-->
+            <a href="../index.html">
+                <img src="../img/logo.png"> <!--로고 이미지-->
+            </a>
+        </div>
+
+        <div class="dropdown_container">
+            <img src="../img/icon.png" class="icon_category">
+            <div class="dropdown_box">
+                <a href="./html/mypage.html" class="dropdown_link">마이페이지</a>
+                <a href="./html/login.html" class="dropdown_link">로그인</a>
+
+            </div>
+        </div>
+    </header>
+    <main id="top_sub4">
+        <!--장비 이미지, 가벼운 설명, 평균 가격대, 사용법-->
+        <section class="machine-details">
+            <img src="../img/hammerback.png" alt="레터럴로우" class="machine-image">
+            <div class="spec">
+                <ul>
+                    <li><strong>해머스트렝스 레터럴로우</strong></li>
+                    <li>"광배근과 승모근을 주 타겟으로 하는 기구입니다."</li>
+
+                    <li><strong>레터럴로우 평균가 :</strong> 5,000,000₩</li>
+
+                    <li><strong>장점 :</strong>
+                        좌우가 독립적이므로 자세의 불균형을 방지할 수 있습니다.
+                    </li>
+                    <li>
+                        <div class="usage-container">
+                            <div class="usage-title">사용법:</div>
+                            <div class="usage-text">
+                                발을 발판에 올려 고정합니다.
+                                상체를 패드에 밀착하고 등을 곧게 폅니다.
+                                손잡이를 어깨너비로 잡고 팔꿈치를 뒤로 당기며 광배근을 수축시킵니다.
+                                손잡이를 원위치로 돌려놓습니다.
+                            </div>
+                        </div>
+                    </li>
+                    <li><strong>팁 :</strong>
+                        팔이 아닌 등 근육을 사용하여 당깁니다.
+                    </li>
+                    <li>
+                        <a href="https://shop.lifefitness.com/products/hammer-strength-plate-loaded-iso-lateral-row">
+                            머신추천사이트
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- "동작부위" 버튼을 클릭하면 팝업 열기 -->
+        <button class="hover-button" onclick="openPopup()">동작부위</button>
+
+        <!-- 팝업창 -->
+        <div id="popup" class="popup-overlay">
+            <div class="popup-content">
+                <span class="popup-close" onclick="closePopup()">&times;</span>
+                <h3>운동 부위</h3>
+                <img src="../img/hammerback_sub.png" alt="운동 부위 이미지" class="popup-image">
+            </div>
+        </div>
+
+
+        <hr>
+
+        <!-- 사용자 한줄평 섹션 -->
+        <section class="reviews-section">
+            <h2>사용자 한줄평</h2>
+
+            <!-- 평균 평점 표시 -->
+            <div id="average-rating">
+                <strong>평균 평점:</strong>
+                <span id="average-rating-value">0.0</span> / 5.0
+                <div id="star-average-rating"></div>
+            </div>
+
+            <div id="reviews-list">
+                <div class="review">
+                    <p><strong>닉네임1:</strong> 넓게 벌어진 등을 원한다면 일단 땡기세요.</p>
+                </div>
+                <div class="review">
+                    <p><strong>닉네임2:</strong> 등 운동기구 끝판왕 잘못하면 전완근 끝판왕</p>
+                </div>
+            </div>
+
+            <!-- 한줄평 작성 폼 -->
+            <h3>한줄평 작성하기</h3>
+            <form id="review-form">
+                <label for="review-text">한줄평:</label>
+                <textarea id="review-text" name="review" required placeholder="한줄평을 작성해주세요"></textarea>
+
+                <label for="rating">평점:</label>
+                <select id="rating" name="rating" required>
+                    <option value="">선택하세요</option>
+                    <option value="1">1점</option>
+                    <option value="2">2점</option>
+                    <option value="3">3점</option>
+                    <option value="4">4점</option>
+                    <option value="5">5점</option>
+                </select>
+
+                <button type="submit">리뷰 제출</button>
+            </form>
+
+            <button id="scrollToTop">
+                <img src="../img/scroll.png" alt="위로 가기" class="up-arrow">
+            </button>
+
+        </section>
+
+        <footer id="footer-container">
+
+        </footer>
+
+    </main>
+
+
+
+
+
+</body>
+
+</html>

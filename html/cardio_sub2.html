@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>기구 상세페이지</title>
+
+    <link rel="stylesheet" href="../css/sub.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="../css/scroll.css">
+    <script defer src="../js/scroll.js"></script>
+    <script defer src="../js/header.js"></script>
+    <script defer src="../js/footer.js"></script>
+    <script defer src="../js/sub.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header_logo"><!--로고 클래스-->
+            <a href="../index.html">
+                <img src="../img/logo.png"> <!--로고 이미지-->
+            </a>
+        </div>
+
+        <div class="dropdown_container">
+            <img src="../img/icon.png" class="icon_category">
+            <div class="dropdown_box">
+                <a href="./html/mypage.html" class="dropdown_link">마이페이지</a>
+                <a href="./html/login.html" class="dropdown_link">로그인</a>
+
+            </div>
+        </div>
+    </header>
+    <main id="cardio_sub2">
+        <!--장비 이미지, 가벼운 설명, 평균 가격대, 사용법-->
+        <section class="machine-details">
+            <img src="../img/draxruning.png" alt="런닝머신" class="machine-image">
+            <div class="spec">
+                <ul>
+                    <li><strong>디랙스 런닝머신</strong></li>
+                    <li><strong>"실내에서 달리기를 할 수 있는 기구입니다."</strong></li>
+
+                    <li><strong>런닝머신 평균가 :</strong> 3,000,000₩</li>
+
+                    <li><strong>장점 :</strong>
+                        체력과 폐활량 증진에 도움이 됩니다.
+                    </li>
+                    <li>
+                        <div class="usage-container">
+                            <div class="usage-title">사용법:</div>
+                            <div class="usage-text">
+                                작동하기 전 러닝머신 벨트 바깥쪽 발판에 올라섭니다.
+                                발판에 올라 선후 시작버튼을 눌러 천천히 걷습니다.
+                                원하는 경사도와 속도를 설정하여 걷거나 달립니다.
+                                적당한 보폭으로 바르게 선 상태로 시선은 앞을 향합니다.
+                            </div>
+                        </div>
+                    </li>
+                    <li><strong>팁 :</strong>
+                        2분 걷기, 1분 뛰기를 반복합니다.(인터벌트레이닝)
+                    </li>
+                    <li>
+                        <a href="https://www.draxfit.com/ko/treadmills/new-redon">
+                            머신추천사이트
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- "동작부위" 버튼을 클릭하면 팝업 열기 -->
+        <button class="hover-button" onclick="openPopup()">동작부위</button>
+
+        <!-- 팝업창 -->
+        <div id="popup" class="popup-overlay">
+            <div class="popup-content">
+                <span class="popup-close" onclick="closePopup()">&times;</span>
+                <h3>운동 부위</h3>
+                <img src="../img/runing_sub.png" alt="운동 부위 이미지" class="popup-image">
+            </div>
+        </div>
+
+
+        <hr>
+
+        <!-- 사용자 한줄평 섹션 -->
+        <section class="reviews-section">
+            <h2>사용자 한줄평</h2>
+
+            <!-- 평균 평점 표시 -->
+            <div id="average-rating">
+                <strong>평균 평점:</strong>
+                <span id="average-rating-value">0.0</span> / 5.0
+                <div id="star-average-rating"></div>
+            </div>
+
+            <div id="reviews-list">
+                <div class="review">
+                    <p><strong>닉네임1:</strong> 유산소의 정석</p>
+                </div>
+                <div class="review">
+                    <p><strong>닉네임2:</strong> 매일 달리시면 빠집니다.</p>
+                </div>
+            </div>
+
+            <!-- 한줄평 작성 폼 -->
+            <h3>한줄평 작성하기</h3>
+            <form id="review-form">
+                <label for="review-text">한줄평:</label>
+                <textarea id="review-text" name="review" required placeholder="한줄평을 작성해주세요"></textarea>
+
+                <label for="rating">평점:</label>
+                <select id="rating" name="rating" required>
+                    <option value="">선택하세요</option>
+                    <option value="1">1점</option>
+                    <option value="2">2점</option>
+                    <option value="3">3점</option>
+                    <option value="4">4점</option>
+                    <option value="5">5점</option>
+                </select>
+
+                <button type="submit">리뷰 제출</button>
+            </form>
+
+            <button id="scrollToTop">
+                <img src="../img/scroll.png" alt="위로 가기" class="up-arrow">
+            </button>
+
+        </section>
+
+    </main>
+
+    <footer id="footer-container">
+
+    </footer>
+</body>
+
+</html>
