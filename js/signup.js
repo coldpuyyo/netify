@@ -8,6 +8,9 @@ document.addEventListener("DOMContentLoaded", function () {
         passwordInput = signupForm.querySelector("#passwordInput"),
         confirmPasswordInput = signupForm.querySelector("#confirmPasswordInput");
 
+      //비밀 번호 유효성 검사 최소 4자리 이상   
+      const passwordRegex = /^.{4,}$/;
+
     //  폼의 submit 이벤트 리스너 추가
     signupForm.addEventListener("submit", async function (event) {
         event.preventDefault(); // 기본 폼 제출 방지
@@ -26,6 +29,10 @@ document.addEventListener("DOMContentLoaded", function () {
             alert("유효한 이메일 주소를 입력하세요.");
             return;
         }
+        if (!passwordRegex.test(enteredPassword)) {
+            alert("비밀번호는 최소 4자 이상 입니다.");
+            return;
+        }
 
         if (enteredPassword !== enteredConfirmPassword) {
             alert("비밀번호가 일치하지 않습니다. 다시 입력해주세요.");
@@ -33,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         const formData = new FormData(signupForm);
-        const clientData = Object.fromEntries(formData);
+        
 
         try {
             // 1️ 서버에서 기존 사용자 데이터 가져오기

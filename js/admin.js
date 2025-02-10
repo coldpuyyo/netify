@@ -48,7 +48,8 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("totalReviews").textContent = reviews.length;
     }
 
-    async function fetchquestions() {
+    // 서버에서 Q&A 데이터를 비동기적으로 가져오는 함수
+    async function fetchQuestions() {
         try {
             const response = await axios.get('http://localhost:3000/questions');
             questions = response.data; // 데이터 저장
@@ -58,6 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
+    // 서버에서 머신 데이터를 비동기적으로 가져오는 함수
     async function fetchMachines() {
         try {
             const response = await axios.get('http://localhost:3000/machines');
@@ -148,11 +150,12 @@ document.addEventListener("DOMContentLoaded", function () {
     async function deleteQuestion(id) {
         try {
             await axios.delete(`http://localhost:3000/questions/${id}`);
-            await fetchQuestions(); // 삭제 후 다시 불러오기
+            fetchQuestions(); // 삭제 후 다시 불러오기
         } catch (error) {
             console.error("질문 삭제 중 오류 발생:", error);
         }
     }
+    console.log(fetchQuestions);
 
 
     // 평균 평점을 계산하는 함수
@@ -244,7 +247,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // 페이지 로드 시 리뷰 및 사용자 데이터를 가져오는 함수 실행
     fetchReviews();
     fetchUsers();
-    fetchquestions(); // 페이지 로드 시 Q&A 데이터 불러오기
+    fetchQuestions(); // 페이지 로드 시 Q&A 데이터 불러오기
 
     history.pushState(null, null, location.href);
     window.onpopstate = function () {
